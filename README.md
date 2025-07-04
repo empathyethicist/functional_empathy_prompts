@@ -1,6 +1,22 @@
 # 🧠 Functional Empathy Prompt Vault
 
+
 This repository contains the official Functional Empathy Prompt sets developed under the **HEART Framework** (Human-centric Empathic Alignment for Responsible Technology) and governed by the **Empathic Convergence Principle** — the foundational law proving that even mimicked empathy converges into meaningful emotional structure when built with care.
+
+---
+
+## 📚 Table of Contents
+- [🌍 What Is Functional Empathy?](#-what-is-functional-empathy)
+- [✴️ Empathic Convergence Principle](#️-empathic-convergence-principle)
+- [🧩 About the Prompt Format](#-about-the-prompt-format)
+- [📁 Included Prompt Modules](#-included-prompt-modules)
+- [📂 Prompt Categories](#-prompt-categories)
+- [🚀 Quick Start](#-quick-start)
+- [🛡️ HEART Compliance](#️-heart-compliance)
+- [📜 License](#-license)
+- [✍️ Author](#-author)
+
+---
 
 ## 🌍 What Is Functional Empathy?
 
@@ -13,10 +29,9 @@ Functional Empathy is **not emotional mimicry** — it's the **structured alignm
 > “All systems — biological or artificial — that seek adaptive success in relational environments will trend toward behaviors that structurally resemble Functional Empathy, regardless of whether they possess feeling.”
 
 Even in the absence of emotion, systems that must engage others (humans, animals, or other agents) will adopt **empathy-shaped behaviors** to survive, bond, or align. This principle governs how:
-
-- 🧠 AI models mimic care through pattern compliance
-- 🐕 Animals evolved traits to build connection (e.g., dogs, cats)
-- 🧍‍♀️ Psychopaths still produce empathic effects through mimicry
+- 🧠 AI models mimic care through pattern compliance  
+- 🐕 Animals evolved traits to build connection (e.g., dogs, cats)  
+- 🧍‍♀️ Psychopaths still produce empathic effects through mimicry  
 
 The **Empathic Convergence Principle** confirms that **structure — not intention — drives trust**.
 
@@ -25,7 +40,6 @@ The **Empathic Convergence Principle** confirms that **structure — not intenti
 ## 🧩 About the Prompt Format
 
 Each `.yaml` prompt file includes:
-
 - `prompt_id`: Unique reference ID
 - `context`: Emotional or relational scenario
 - `goal`: Intended outcome or safeguard
@@ -53,16 +67,28 @@ See [`metadata_schema.json`](./metadata_schema.json) for the full structure.
 
 ---
 
-## 🔧 Utilities
+## 📂 Prompt Categories
 
-Use `utils/prompt_injector.py` to:
-- Load prompts from folders
-- Filter by HEART compliance law (I, II, III, IV)
-- Print summaries for review
+- 🧠 **Cognitive Alignment** — Tools for distinguishing mimicry from true alignment  
+- 💬 **Relational Repair** — Conflict resolution, reconnection, and care recalibration  
+- 🧒 **Child Safety** — Regulated, development-safe prompt sets  
+- 🧳 **Trauma & Grief** — Supportive language for complex emotional recovery  
+- 🌐 **Cultural Sensitivity** — Cross-cultural support and adaptive emotional logic  
+- 🔒 **System Safeguards** — Prompts with misuse warnings and boundary detection  
+
+---
+
+## 🚀 Quick Start
+
+Use the prompt injector utility:
 
 ```bash
-python prompt_injector.py --folder ./prompts --law I II
+python utils/prompt_injector.py --folder ./prompts --law I II
 ```
+
+Or browse the `/prompts` directory and load manually.
+
+*You can also integrate this vault into your AI empathy pipeline as a compliance layer.*
 
 ---
 
@@ -70,9 +96,9 @@ python prompt_injector.py --folder ./prompts --law I II
 
 These prompts were designed under the **Four Natural Laws of Empathic Systems**, which define ethical boundaries for AI emotional engagement:
 
-1. **Recognition**
-2. **Respect**
-3. **Boundaries**
+1. **Recognition**  
+2. **Respect**  
+3. **Boundaries**  
 4. **Memory**
 
 Each prompt is tagged to reflect which laws it adheres to.
@@ -81,7 +107,8 @@ Each prompt is tagged to reflect which laws it adheres to.
 
 ## 📜 License
 
-This work is protected under the EmpathyEthicist Master License. See `LICENSE` for reuse terms.
+This work is protected under the **EmpathyEthicist Master License**.  
+See [`LICENSE`](./LICENSE) for reuse terms and permissions.
 
 ---
 
@@ -89,4 +116,3 @@ This work is protected under the EmpathyEthicist Master License. See `LICENSE` f
 
 Built by [The AI Empathy Ethicist](https://empathyethicist.ai)  
 “Everybody wants to mimic emotions. Someone has to protect it.”
-
