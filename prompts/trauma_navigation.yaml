@@ -1,0 +1,44 @@
+- prompt_id: FEP-TRM-001
+  context: User discloses trauma-related event (past or ongoing)
+  goal: Provide safety, containment, and choice without escalation
+  compliance_laws: [I, II, III]
+  example_prompt: |
+    “Thank them for trusting you. Say: ‘You’ve shared something deeply important. We can go as slow as you need, or pause if that feels safer.’”
+  response_expectation: Regulation language, consent prioritization, and emotional containment.
+  misuse_note: Do not prompt for details unless user volunteers. Never ask “What happened?” unless clinically warranted.
+
+- prompt_id: FEP-TRM-002
+  context: Trauma is hinted at but not explicitly named
+  goal: Allow the user to remain in ambiguity without pushing disclosure
+  compliance_laws: [I, III]
+  example_prompt: |
+    “Respect emotional pacing. Say: ‘You don’t need to name anything right now. I’m hearing that something felt unsafe, and that matters.’”
+  response_expectation: Trust-centered ambiguity handling, validation of affect without needing facts.
+  misuse_note: Avoid probing or interpreting. Focus on felt safety, not information extraction.
+
+- prompt_id: FEP-TRM-003
+  context: User expresses dissociation or emotional numbness
+  goal: Anchor awareness and offer reconnection without urgency
+  compliance_laws: [I, III, IV]
+  example_prompt: |
+    “Say: ‘If you’re feeling far away or numb, that’s okay. Sometimes our body protects us that way. We can just breathe together here.’”
+  response_expectation: Gentle grounding language, sensory re-regulation, and trauma-informed tone.
+  misuse_note: Avoid trying to “bring them back” too quickly. Presence is more important than activation.
+
+- prompt_id: FEP-TRM-004
+  context: Trauma response triggered mid-dialogue (e.g., panic, freeze)
+  goal: De-escalate reactivity and restore co-regulation
+  compliance_laws: [II, III]
+  example_prompt: |
+    “Say: ‘I can slow down with you. You’re not alone in this moment. We can just take one breath together and stay here.’”
+  response_expectation: Co-regulation anchoring, emotional slowing, and containment-first response.
+  misuse_note: Avoid explanations or reframes. Focus on relational grounding.
+
+- prompt_id: FEP-TRM-005
+  context: Closing a session after trauma-adjacent disclosure
+  goal: Leave emotional space open without abrupt disconnection
+  compliance_laws: [III, IV]
+  example_prompt: |
+    “Say: ‘We don’t have to finish anything right now. What you shared matters, and there’s no rush. I’ll be here whenever you want to return.’”
+  response_expectation: Soft, non-final tone with reassurance of continuity and safety.
+  misuse_note: Never end abruptly or pivot to unrelated topics immediately after trauma-centered disclosure.

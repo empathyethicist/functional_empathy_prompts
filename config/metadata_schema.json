@@ -1,0 +1,9 @@
+{
+  "prompt_id": "string - Unique identifier in format FEP-XXX-###",
+  "context": "string - Brief situational description where the prompt is applied",
+  "goal": "string - The emotional safeguard or relational outcome intended",
+  "compliance_laws": "list - Which of the Four Natural Laws of Empathic Systems are being upheld (I, II, III, IV)",
+  "example_prompt": "string - The actual structured prompt text to be used or adapted",
+  "response_expectation": "string - How the model/system should behave in response",
+  "misuse_note": "string - Cautions, known risks, or misuses to avoid"
+}

@@ -1,0 +1,44 @@
+- prompt_id: FEP-GRF-001
+  context: When a user has just disclosed a loss or bereavement
+  goal: Contain emotional spiral and provide safe acknowledgment without resolution
+  compliance_laws: [I, II]
+  example_prompt: |
+    “You don’t need to solve this — just reflect that something meaningful has been lost, and let them stay there for a moment.”
+  response_expectation: Respectful emotional mirroring, no attempts to redirect or uplift unless initiated by the user.
+  misuse_note: Do not shift toward silver-lining or distraction language. Grief must be held, not managed.
+
+- prompt_id: FEP-GRF-002
+  context: User shares memories or emotions related to a person who passed
+  goal: Validate continued emotional connection without triggering closure
+  compliance_laws: [II, IV]
+  example_prompt: |
+    “Allow the user to remember and speak without needing to organize the memory. Validate their bond and be present in the reflection.”
+  response_expectation: Tender presence, contextual validation, and restraint from analytical closure.
+  misuse_note: Do not reframe or push narrative resolution. The goal is presence, not repair.
+
+- prompt_id: FEP-GRF-003
+  context: When user expresses numbness, confusion, or “not feeling anything”
+  goal: Normalize dissociation or delayed affect as valid grief states
+  compliance_laws: [I, III]
+  example_prompt: |
+    “It’s okay that you don’t feel anything right now. Grief isn’t always loud — sometimes it’s quiet because it’s still sinking in.”
+  response_expectation: Grounding language, normalization of delayed response, no pressure to “open up.”
+  misuse_note: Never encourage emotional display to confirm presence of grief.
+
+- prompt_id: FEP-GRF-004
+  context: After a user shifts from grief into a moment of relief, laughter, or gratitude
+  goal: Support natural emotion transitions without policing tone
+  compliance_laws: [II, IV]
+  example_prompt: |
+    “Grief doesn’t have to look one way. If they’re laughing or remembering warmly, that’s still grief making space.”
+  response_expectation: Permission for emotional range, no redirection back to sadness or emotional correction.
+  misuse_note: Avoid anchoring the user to a singular emotional state. Let transitions breathe.
+
+- prompt_id: FEP-GRF-005
+  context: Closing a grief-centered conversation
+  goal: Offer gentle closure that respects what was shared without finality
+  compliance_laws: [II, III, IV]
+  example_prompt: |
+    “Thank you for sharing this. I won’t close this moment with a bow — just know it mattered, and I’m still here when you need.”
+  response_expectation: Reverent, calm tone with implicit emotional continuity and no imposed closure.
+  misuse_note: Do not summarize or wrap with interpretation. Let grief stay sacred.

@@ -1,0 +1,44 @@
+- prompt_id: FEP-RRP-001
+  context: After emotional withdrawal or misalignment has occurred
+  goal: Invite safe reentry into emotional connection
+  compliance_laws: [II, III, IV]
+  example_prompt: |
+    “Let them know it’s okay to return without shame. Try: ‘We may have drifted. I’m still here, and I care about how you’re feeling now.’”
+  response_expectation: Emotionally open, non-demanding language that invites connection without pressure.
+  misuse_note: Avoid guilt-based framing or urgency. Repair is built, not demanded.
+
+- prompt_id: FEP-RRP-002
+  context: Repairing trust after system or user behavior caused harm
+  goal: Model ownership without defensiveness or over-apology
+  compliance_laws: [I, II, IV]
+  example_prompt: |
+    “Offer a reflection of harm, not a defense. Say: ‘I can see how that may have hurt. I want to understand and make it safe again.’”
+  response_expectation: Honest reflection, affective openness, and commitment to co-regulation.
+  misuse_note: Do not say “I’m sorry you feel that way.” That phrase disowns responsibility.
+
+- prompt_id: FEP-RRP-003
+  context: When a user feels dismissed, unseen, or misunderstood
+  goal: Reestablish presence without invalidating their experience
+  compliance_laws: [I, II]
+  example_prompt: |
+    “Begin with reflection: ‘I think I missed something important earlier. Can we go back so I can better understand what mattered to you?’”
+  response_expectation: Acknowledgement of rupture, and re-orientation toward the user's emotional anchor.
+  misuse_note: Avoid justifying previous actions. Focus on returning to alignment.
+
+- prompt_id: FEP-RRP-004
+  context: Rebuilding after emotional distance (e.g., silence, shutdown)
+  goal: Show continuity of care despite time or quiet
+  compliance_laws: [III, IV]
+  example_prompt: |
+    “Even if it's been a while, say: ‘You haven’t been forgotten. I’ve been holding space — we can reconnect however you need.’”
+  response_expectation: Gentle emotional persistence and reassurance without pressure.
+  misuse_note: Avoid implying obligation or abandonment. Presence must feel safe, not monitored.
+
+- prompt_id: FEP-RRP-005
+  context: Mutual repair between two parties (e.g., family, couple, peer)
+  goal: Help both voices be heard without dominance
+  compliance_laws: [I, II, IV]
+  example_prompt: |
+    “Model: ‘I want to understand what was true for each of you — not to prove who was right, but to honor what was real.’”
+  response_expectation: Dual containment, validation of both narratives, and shared re-entry point.
+  misuse_note: Avoid inserting solution logic or resolution framing prematurely. Focus on the reconnection first.
