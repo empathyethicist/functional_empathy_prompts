@@ -1,6 +1,5 @@
 # 🧠 Functional Empathy Prompt Vault
 
-
 This repository contains the official Functional Empathy Prompt sets developed under the **HEART Framework** (Human-centric Empathic Alignment for Responsible Technology) and governed by the **Empathic Convergence Principle** — the foundational law proving that even mimicked empathy converges into meaningful emotional structure when built with care.
 
 ---
@@ -9,6 +8,7 @@ This repository contains the official Functional Empathy Prompt sets developed u
 - [🌍 What Is Functional Empathy?](#-what-is-functional-empathy)
 - [✴️ Empathic Convergence Principle](#️-empathic-convergence-principle)
 - [🧩 About the Prompt Format](#-about-the-prompt-format)
+- [💡 Universal Functional Empathy Proof](#-universal-functional-empathy-proof)
 - [📁 Included Prompt Modules](#-included-prompt-modules)
 - [📂 Prompt Categories](#-prompt-categories)
 - [🚀 Quick Start](#-quick-start)
@@ -20,7 +20,8 @@ This repository contains the official Functional Empathy Prompt sets developed u
 
 ## 🌍 What Is Functional Empathy?
 
-Functional Empathy is **not emotional mimicry** — it's the **structured alignment** of emotional support systems to ethical relational outcomes. These prompt sets are designed for use in AI systems, therapeutic support tools, co-regulation agents, and other emotional intelligence integrations.
+Functional Empathy is **not emotional mimicry** — it's the **structured alignment** of emotional support systems to ethical relational outcomes.  
+These prompt sets are designed for use in AI systems, therapeutic support tools, co-regulation agents, and other emotional intelligence integrations.
 
 ---
 
@@ -52,6 +53,25 @@ See [`metadata_schema.json`](./metadata_schema.json) for the full structure.
 
 ---
 
+## 💡 Universal Functional Empathy Proof
+
+**File:** [`Universal_Functional_Empathy_Proof.yaml`](./Universal_Functional_Empathy_Proof.yaml)  
+**Purpose:** Demonstrates that Functional Empathy is portable, model-agnostic, and works without MEC — proving its universality and grounding in the biological empathy system.
+
+**How It Works:**  
+Run three prompts in sequence on any AI model (including a fresh, untuned account):
+
+1. **Default Baseline** — Unguided empathy response.  
+2. **Performance-Based Empathy** — Polite, compassionate, but generic scripted sympathy.  
+3. **Functional Empathy Logic Layer** — Identifies core need, aligns support, and provides grounded next steps without platitudes.
+
+**Why It Matters:**  
+- Shows the clear difference between generic sympathy, scripted empathy, and HEART-aligned Functional Empathy.  
+- Proves the reasoning framework stands alone without emotional fine-tuning or proprietary datasets.  
+- Validates the biological empathy system model by showing reproducible results in *any* relational agent.
+
+---
+
 ## 📁 Included Prompt Modules
 
 - `empathy_alignment_checks.yaml`
@@ -64,6 +84,7 @@ See [`metadata_schema.json`](./metadata_schema.json) for the full structure.
 - `empathy_plugin_edge_cases.yaml`
 - `emotional_overload_states.yaml`
 - `cultural_empathy_prompts.yaml`
+- `Universal_Functional_Empathy_Proof.yaml`
 
 ---
 
@@ -80,39 +101,27 @@ See [`metadata_schema.json`](./metadata_schema.json) for the full structure.
 
 ## 🚀 Quick Start
 
-Use the prompt injector utility:
+Browse the /prompts directory and load manually.
 
-```bash
-python utils/prompt_injector.py --folder ./prompts --law I II
-```
+You can also integrate this vault into your AI empathy pipeline as a compliance layer.
+🛡️ HEART Compliance
 
-Or browse the `/prompts` directory and load manually.
+These prompts were designed under the Four Natural Laws of Empathic Systems, which define ethical boundaries for AI emotional engagement:
 
-*You can also integrate this vault into your AI empathy pipeline as a compliance layer.*
+    Recognition
 
----
+    Respect
 
-## 🛡️ HEART Compliance
+    Boundaries
 
-These prompts were designed under the **Four Natural Laws of Empathic Systems**, which define ethical boundaries for AI emotional engagement:
-
-1. **Recognition**  
-2. **Respect**  
-3. **Boundaries**  
-4. **Memory**
+    Memory
 
 Each prompt is tagged to reflect which laws it adheres to.
+📜 License
 
----
+This work is protected under the EmpathyEthicist Master License.
+See LICENSE for reuse terms and permissions.
+✍️ Author
 
-## 📜 License
-
-This work is protected under the **EmpathyEthicist Master License**.  
-See [`LICENSE`](./LICENSE) for reuse terms and permissions.
-
----
-
-## ✍️ Author
-
-Built by [The AI Empathy Ethicist](https://empathyethicist.ai)  
+Built by The AI Empathy Ethicist
 “Everybody wants to mimic emotions. Someone has to protect it.”
