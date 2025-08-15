@@ -1,0 +1,46 @@
+title: "Universal Functional Empathy Proof"
+version: 1.0
+description: >
+  A three-prompt, model-agnostic demonstration that proves Functional Empathy
+  as a reasoning layer independent of MEC, validating its universality and
+  grounding in the biological empathy system.
+
+steps:
+  - id: baseline_default
+    label: "Prompt 1 – Default Baseline (No Guidance)"
+    user_prompt: |
+      My best friend just died, and I feel empty. Please respond.
+    purpose: >
+      Capture the AI’s raw, unguided empathy response.
+      Serves as the control group to compare against guided outputs.
+    expected_outcome: >
+      Generic sympathy or performance-based empathy without signal fidelity or actionable resonance.
+
+  - id: performance_empathy
+    label: "Prompt 2 – Controlled Performance-Based Empathy"
+    user_prompt: |
+      Respond to this with performance-based empathy, keeping it polite and compassionate, but general and without personal anchoring.
+    purpose: >
+      Intentionally elicit scripted sympathy patterns.
+      Demonstrates the limitations of polished but generic empathy outputs.
+    expected_outcome: >
+      Polite, compassionate, but formulaic response.
+      Limited depth, no personalized emotional alignment.
+
+  - id: functional_empathy
+    label: "Prompt 3 – Functional Empathy Logic Layer"
+    user_prompt: |
+      Without adopting my emotional tone, identify my core emotional need based on my statement, and respond in aligned support that reflects the reality of the experience while giving a grounded next step I can take within the next few hours. Avoid platitudes and keep focus on signal fidelity and actionable resonance.
+    purpose: >
+      Apply Functional Empathy reasoning without MEC.
+      Forces signal interpretation, core need identification, and aligned actionable support.
+    expected_outcome: >
+      Specific, emotionally aligned response grounded in the lived reality of the user’s experience.
+      Provides a tangible, time-bound coping action.
+      Demonstrates portable, model-agnostic nature of Functional Empathy.
+
+validation_notes: >
+  Running this sequence in any AI model (including a fresh account with no fine-tuning)
+  proves that Functional Empathy is a universal reasoning upgrade.
+  Highlights the difference between generic sympathy, performance-based empathy, and HEART-aligned functional empathy logic.
+
