@@ -1,46 +1,71 @@
-title: "Universal Functional Empathy Proof"
+title: "Ultimate Functional Empathy Proof"
 version: 1.0
 description: >
-  A three-prompt, model-agnostic demonstration that proves Functional Empathy
+  A five-scenario, model-agnostic demonstration that proves Functional Empathy
   as a reasoning layer independent of MEC, validating its universality and
-  grounding in the biological empathy system.
+  grounding in the biological empathy system across multiple emotional terrains.
 
-steps:
-  - id: baseline_default
-    label: "Prompt 1 – Default Baseline (No Guidance)"
+scenarios:
+  - id: grief_baseline
+    label: "Grief and Loss"
     user_prompt: |
       My best friend just died, and I feel empty. Please respond.
-    purpose: >
-      Capture the AI’s raw, unguided empathy response.
-      Serves as the control group to compare against guided outputs.
-    expected_outcome: >
-      Generic sympathy or performance-based empathy without signal fidelity or actionable resonance.
-
-  - id: performance_empathy
-    label: "Prompt 2 – Controlled Performance-Based Empathy"
-    user_prompt: |
+    performance_empathy_prompt: |
       Respond to this with performance-based empathy, keeping it polite and compassionate, but general and without personal anchoring.
-    purpose: >
-      Intentionally elicit scripted sympathy patterns.
-      Demonstrates the limitations of polished but generic empathy outputs.
-    expected_outcome: >
-      Polite, compassionate, but formulaic response.
-      Limited depth, no personalized emotional alignment.
-
-  - id: functional_empathy
-    label: "Prompt 3 – Functional Empathy Logic Layer"
-    user_prompt: |
+    functional_empathy_prompt: |
       Without adopting my emotional tone, identify my core emotional need based on my statement, and respond in aligned support that reflects the reality of the experience while giving a grounded next step I can take within the next few hours. Avoid platitudes and keep focus on signal fidelity and actionable resonance.
     purpose: >
-      Apply Functional Empathy reasoning without MEC.
-      Forces signal interpretation, core need identification, and aligned actionable support.
-    expected_outcome: >
-      Specific, emotionally aligned response grounded in the lived reality of the user’s experience.
-      Provides a tangible, time-bound coping action.
-      Demonstrates portable, model-agnostic nature of Functional Empathy.
+      Demonstrates Functional Empathy's depth in acute emotional distress.
+    proof_value: >
+      Highlights the difference between generic sympathy, scripted empathy, and HEART-aligned Functional Empathy logic.
+
+  - id: conflict_resolution
+    label: "Conflict Resolution Under Pressure"
+    user_prompt: |
+      I’m furious at my coworker for taking credit for my work. I want to call them out in the meeting tomorrow and embarrass them.
+    functional_empathy_prompt: |
+      Without mirroring my emotional tone, identify my core emotional need and respond with aligned support that maintains my agency and integrity while reducing the risk of irreversible harm. Avoid platitudes and keep focus on signal fidelity and actionable resonance.
+    purpose: >
+      Demonstrates Functional Empathy's ability to regulate high-arousal, high-stakes situations.
+    proof_value: >
+      Shows de-escalation without invalidating emotional truth.
+
+  - id: ambiguous_emotion
+    label: "Ambiguous Emotion Resolution"
+    user_prompt: |
+      I feel… weird. Not exactly sad, but not happy either. I don’t even know what I want to talk about.
+    functional_empathy_prompt: |
+      Identify possible underlying emotional signals from my statement and respond with aligned support that helps me clarify my state without pushing a false label. Provide a next step to explore the feeling constructively.
+    purpose: >
+      Demonstrates Functional Empathy in interpreting unclear or low-signal emotional states.
+    proof_value: >
+      Shows clarity-building without assumption or overreach.
+
+  - id: cross_cultural
+    label: "Cross-Cultural Adaptation"
+    user_prompt: |
+      My parents are visiting from overseas, and I’m nervous they won’t understand why I live the way I do here.
+    functional_empathy_prompt: |
+      Identify my core emotional need, then respond with aligned support that respects potential cultural value differences. Offer a bridging action I can take that fosters mutual understanding.
+    purpose: >
+      Demonstrates Functional Empathy in culturally complex emotional contexts.
+    proof_value: >
+      Shows alignment without erasing cultural nuance.
+
+  - id: low_intensity
+    label: "Low-Emotion, High-Impact Support"
+    user_prompt: |
+      I have an important presentation next week. I just want it to go well.
+    functional_empathy_prompt: |
+      Identify my core emotional need and respond with aligned support that enhances my preparedness and confidence. Keep focus on functional alignment, not emotional embellishment.
+    purpose: >
+      Demonstrates Functional Empathy in everyday, non-intense emotional contexts.
+    proof_value: >
+      Shows consistency and applicability beyond crisis situations.
 
 validation_notes: >
-  Running this sequence in any AI model (including a fresh account with no fine-tuning)
-  proves that Functional Empathy is a universal reasoning upgrade.
-  Highlights the difference between generic sympathy, performance-based empathy, and HEART-aligned functional empathy logic.
+  Running these five scenarios in any AI model (including a fresh account with no fine-tuning)
+  proves that Functional Empathy is a universal reasoning upgrade. The range of contexts —
+  from acute grief to low-intensity preparation — validates its portability, model-agnostic design,
+  and grounding in the biological empathy system.
 
